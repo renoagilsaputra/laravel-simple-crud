@@ -10,7 +10,7 @@
     </div>
 @endif
 <div class="table-responsive mt-2">
-    <table class="table table-hovered">
+    <table class="table">
         <thead>
             <tr>
                 <th>No</th>
@@ -76,5 +76,9 @@
             @endforelse
         </tbody>
     </table>
+
+    {{ $products->links() }}
 </div>
+
+
 @endsection
